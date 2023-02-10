@@ -22,7 +22,7 @@ buildscript {
         constraintlayout_version = '2.1.4'
         core_ktx_version = '1.9.0'
         coroutines_version = '1.4.2'
-        kotlin_version = '1.8.0'
+        kotlin_version = "1.8.0"
         lifecycle_version = '2.5.1'
         material_version = '1.8.0'
         nav_version = '2.5.3'
@@ -33,7 +33,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.1'
+        classpath 'com.android.tools.build:gradle:7.2.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
 
